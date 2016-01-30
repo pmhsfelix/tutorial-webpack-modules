@@ -1,5 +1,5 @@
-function add(a, b) {
+function addImpl(a, b) {
     return a + b;
 }
 
-exports.add = add
+exports.add = addImpl;
