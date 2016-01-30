@@ -1,0 +1,22 @@
+{
+  "name": "tutorial-webpack-modules",
+  "version": "0.1.0",
+  "description": "Tutorial on Webpack and modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmhsfelix/tutorial-webpack-modules.git"
+  },
+  "author": "Pedro Félix",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pmhsfelix/tutorial-webpack-modules/issues"
+  },
+  "homepage": "https://github.com/pmhsfelix/tutorial-webpack-modules#readme",
+  "devDependencies": {
+    "webpack": "^1.12.12"
+  }
+}
