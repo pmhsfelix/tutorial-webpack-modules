@@ -137,11 +137,11 @@ Again, we are using the `require` function to access the module's API.
 ## Bundling
 
 The final step is to bundle all these files into a single javascript file that can be included in a HTML document.
-For that we just use `webpack`, passing the _main module_ file (`./index.js`) and the bundled file name (`bundle.js).
+For that we just use `webpack`, passing the _main module_ file (`./index.js`) and the bundled file name (`dist/bundle.js).
 
 
 ```
-tutorial-webpack-modules pedro$ node_modules/.bin/webpack ./index.js bundle.js
+tutorial-webpack-modules pedro$ node_modules/.bin/webpack ./index.js dist/bundle.js
 Hash: 752f10f9dcca1e978e90
 Version: webpack 1.12.12
 Time: 52ms
@@ -326,5 +326,12 @@ This call passes to the module function a set of parameters that implement the C
 
 * Finally, the `__webpack_require__` function returns the `exports` object after it has been filled in.
 
-The anonymous function ends by calling the `__webpack_require__` on the first module function. 
+The anonymous function ends by calling the `__webpack_require__` on the first module function.
+
+## Additional Resources
+
+* The [Module Patterns](https://leanpub.com/modulepatterns) free book by [Pedro Teixeira](https://about.me/pedroteixeira) is an excellent resource to understand Node.JS modules, which also follow the CommonJS specification.
+It also includes code excerpts illustrating how modules can be loaded and resolved.
+
+* The [Webpack tutorial](http://webpack.github.io/docs/tutorials/getting-started/) is also a good resource to get started with Webpack.
 
