@@ -1,4 +1,4 @@
-# Tutorial on web pack and CommonJS modules
+# Tutorial on Webpack and CommonJS modules
 
 This tutorial shows how to install and use Webpack to bundle CommonJS modules.
 It describes how Webpack performs this bundling, namely how modules are loaded and resolved.  
